@@ -6,7 +6,7 @@ function Home () {
     return (
         <div className="home">
             <div className="home-title-container">
-                <h1 className="white-text lighten-5 home-title">Login or Sign Up to Budget Buddy</h1>
+                <h1 className="home-title">Login or Sign Up to Budget Buddy</h1>
             </div>
             <div className='login-signup-btn-container'>
                 <Login />
