@@ -15,11 +15,32 @@ input {
 
 .login-signup-btn-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
   height: 100vh;
   align-items: center;
-  margin-left: 10rem;
-  margin-right: 10rem;
   font-size: 20px;
 }
+
+.login-signup-form {
+  border-style: solid;
+  padding: 1rem;
+  border-radius: 10%;
+  background-color: #e0e0e0;
+  opacity: 0.8;
+  margin: 0% 5%;
+}
+
+.form-label {
+  color: #69f0ae;
+}
+
+.form-title {
+  color: #424242
+}
+
+.home-title {
+  margin-top: 5%;
+}
+
 

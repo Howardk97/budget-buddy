@@ -6,8 +6,8 @@ import './index.css';
 
 // Components
 import LoginSignUp from './components/LoginSignUp';
-import Login from './components/Login';
-import SignUp from './components/SignUp'
+import Login from './elements/Login';
+import SignUp from './elements/SignUp'
 
 
 function App() {
@@ -18,13 +18,13 @@ function App() {
         path="/"
         element={<LoginSignUp />}/>
 
-        <Route
+        {/* <Route
         path="/login"
         element={<Login />}/>
 
         <Route
         path="/signup"
-        element={<SignUp />}/>
+        element={<SignUp />}/> */}
       </Routes>
     </Router>
   );
