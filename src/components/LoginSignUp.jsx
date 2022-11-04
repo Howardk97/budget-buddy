@@ -8,7 +8,7 @@ function Home () {
             <div className="home-title-container">
                 <h1 className="home-title">Login or Sign Up to Budget Buddy</h1>
             </div>
-            <div className='login-signup-btn-container'>
+            <div className='login-signup-container'>
                 <Login />
                 <SignUp />
             </div>
